@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>JavaScript HTML5 Canvas drawing</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+    <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+</head>
+<body>
+<canvas id="input_canvas" width="280" height="280"></canvas>
+<div class="dashboard">
+    <canvas id="scaled_canvas" width="28" height="28"></canvas>
+    <input id="color_picker" type="color" name="penColor" value="#000000" disabled>
+    <input type="range" name="penWidth" min="2" max="20" step="2" value="15">
+    <button id="checknumber">Check</button>
+    <button id="eraser">Erase</button>
+</div>
+<div class="displayNumber">
+    <h4 id="answer"></h4>
+</div>
+<script src="static/js/script.js"></script>
+</body>
+</html>

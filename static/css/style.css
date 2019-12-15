@@ -1,0 +1,10 @@
+#input_canvas{
+    border:1px solid black;   
+}
+#scaled_canvas{
+    border:1px solid black;
+}
+#color_picker{
+    width:20px;
+    margin:1px;
+}
